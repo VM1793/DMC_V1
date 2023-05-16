@@ -1,0 +1,23 @@
+.footer {
+    min-height: 230px;
+    position: relative;
+    background-color: #000;
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 200px;
+    }
+    &__social {
+        place-self: center;
+    }
+    &__main {
+        place-self: center;
+    }
+    &__contacts {
+        place-self: center;
+        &-adress {
+            color: #fff;
+        }
+    }
+   
+}
